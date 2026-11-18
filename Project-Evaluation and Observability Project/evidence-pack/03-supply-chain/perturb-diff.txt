@@ -1,0 +1,46 @@
+1c1
+< Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  75%|███████▍  | 77/103 [00:00<00:00, 714.98it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 558.31it/s]
+---
+> Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 19061.65it/s]
+4a5,6
+> > Sources unavailable: logistics unavailable (timeout)
+> 
+6c8
+< ### average_lead_time_days  _[corroborated across 2 sources]_
+---
+> ### average_lead_time_days  _[single source only]_
+9,13d10
+<     - 12.0 days — logistics (as of 2026-04-05)
+< 
+< | Metric | Value | As of | Source |
+< | --- | --- | --- | --- |
+< | average_lead_time_days | 12.0 days | 2026-04-05 | logistics |
+27c24
+< ### late_shipment_count  _[single source only]_
+---
+> ### on_time_delivery_rate  _[single source only]_
+29,33c26
+<     - 11.0 shipments — logistics (as of 2026-04-05)
+< 
+< | Metric | Value | As of | Source |
+< | --- | --- | --- | --- |
+< | late_shipment_count | 11.0 shipments | 2026-04-05 | logistics |
+---
+>     - 95.0 percent — supplier_audit (as of 2026-04-10)
+44,53c37
+< ### on_time_delivery_rate  _[2 sources, conflicting]_  ⚠️ ESCALATE
+< - escalation: high-impact metric is contested across sources
+< - Reported values by source:
+<     - 95.0 percent — supplier_audit (as of 2026-04-10)
+<     - 78.0 percent — logistics (as of 2026-04-05)
+< 
+< | Metric | Value | As of | Source |
+< | --- | --- | --- | --- |
+< | on_time_delivery_rate | 78.0 percent | 2026-04-05 | logistics |
+< 
+---
+> _none_
+55a40,42
+> ### late_shipment_count  _[missing source: timeout reading logistics]_
+> - missing source: timeout reading logistics
+> 
