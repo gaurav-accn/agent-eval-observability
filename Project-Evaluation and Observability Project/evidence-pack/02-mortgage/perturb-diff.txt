@@ -1,0 +1,8 @@
+37c37
+< TOTAL MONTHLY EARNINGS                         10,892.17   35,929.43
+---
+> TOTAL MONTHLY EARNINGS                         9,642.17   35,929.43
+78c78
+< Gross Earnings (Monthly)              10,892.17    35,929.43
+---
+> Gross Earnings (Monthly)              9,642.17    35,929.43
