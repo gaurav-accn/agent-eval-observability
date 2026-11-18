@@ -1,0 +1,10 @@
+2026-11-18 09:20:15,841 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-18 09:20:15,855 INFO validation_failed
+{
+  "category": "missing_source",
+  "detected_pattern": "premium_amount_absent",
+  "field": "premium_amount",
+  "kind": "escalation",
+  "policy_id": "POL-2025-001-NOPREM",
+  "reason": "Field 'premium_amount' returned null \u2014 the source document does not contain this information. Retry is futile; escalate to human review."
+}

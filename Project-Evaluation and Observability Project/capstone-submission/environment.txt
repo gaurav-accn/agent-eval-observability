@@ -1,0 +1,7 @@
+Python 3.14.2
+Linux codespaces-40424d 6.8.0-1070-azure #78~22.04.1-Ubuntu SMP Thu Sep 24 18:46:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+
+Setup: GitHub Codespaces. One venv per project, created inside each final-exercise solution/ folder:
+  python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"

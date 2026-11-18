@@ -1,0 +1,8 @@
+..................................                                       [100%]
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/chromadb/telemetry/opentelemetry/__init__.py:128
+  /workspaces/agent-eval-observability/Investigate Supply Chain Risk with Multi-Source Synthesis/03-resilient-coordinator/solution/.venv/lib/python3.14/site-packages/chromadb/telemetry/opentelemetry/__init__.py:128: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead
+    if asyncio.iscoroutinefunction(f):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+34 passed, 1 warning in 32.26s
